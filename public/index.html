@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+<body>
+    
+    <h2>Add a product</h2>
+    <form action="/add" method="POST">
+        Name: <input type="text" name="name">
+        Price: <input type="text" name="price">
+        Thumbnail: <input type="text" name="thumbnail">
+        <button>Send</button>
+    </form>
+
+    <br>
+    
+    <h2>Change a product</h2>
+    <form action="/change" method="POST">
+        Id: <input type="text" name="id">
+        Name: <input type="text" name="name">
+        Price: <input type="text" name="price">
+        Thumbnail: <input type="text" name="thumbnail">
+        <button>Send</button>
+    </form>
+</body>
+</html>
